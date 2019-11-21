@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.marliao.smartschool">
+
+    <application
+        android:name=".AppClient"
+        android:allowBackup="true"
+        android:icon="@drawable/smart_school"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/smart_school"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.RecipeActivity"></activity>
+        <activity android:name=".activities.NoticeActivity" />
+        <activity android:name=".activities.NewsActivity" />
+        <activity android:name=".activities.ClubActivity" />
+        <activity android:name=".activities.UserdMarketActivity" />
+        <activity android:name=".activities.GradeActivity" />
+        <activity android:name=".activities.ComplaintActivity" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

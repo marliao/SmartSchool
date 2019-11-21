@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_week_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="周一"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_breakfast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="早餐"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_launch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="午餐"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_dinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="晚餐"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
